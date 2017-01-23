@@ -1,0 +1,13 @@
+name: "ExemplePlugin"
+author: "Qualcuno"
+api: nn so api
+version: 1.0.0
+main: Qualche cartella
+permissions:
+ teleport:
+ default: op
+ teleport.all:
+ default: op
+ 
+ 
+ 
