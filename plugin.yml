@@ -1,20 +1,16 @@
-name: "ExemplePlugin"
+name: "WhatMyIp"
 author: "Qualcuno"
 api: "3.0.0alpha3"
 version: 1.0.0
 main: Qualche cartella
 commands:
- teleport:
-  description: "Teleport to any point of the wolrd or to any player"
-  usage: "/tp (x) (y) (z) / (player), /tp (x) (y) (z) / (player)"
- teleportall:
-  description: "Teleport all players to you"
-  usage: "/tpall"
+ myip:
+  description: "quando usi questo comando ti appare scritto l ip del tuo server!"
+  usage: "/myip"
 permissions:
-  teleport:
-   default: op
-  teleport.all:
-   default: op
- 
+ myip:
+  children:
+  default: true
+  
  
  
