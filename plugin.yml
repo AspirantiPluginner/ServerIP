@@ -1,6 +1,6 @@
 name: "ExemplePlugin"
 author: "Qualcuno"
-api: nn so api
+api: "3.0.0alpha3"
 version: 1.0.0
 main: Qualche cartella
 commands:
