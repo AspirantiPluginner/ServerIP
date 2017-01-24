@@ -1,12 +1,12 @@
-name: "ServerIP"
-author: "AspirantiPluginner"
-api: ["3.0.0-ALPHA3", "3.0.0-ALPHA2"]
+name: ServerIP
+author: AspirantiPluginner
+api: ["2.1.0", "2.0.0", "3.0.0-ALPHA1", "3.0.0-ALPHA2", "3.0.0"]
 version: 1.0.0
 main: AspirantiPluginner\ServerIP\Main
 
 commands:
  serverip:
-  description: "quando usi questo comando ti appare scritto l ip del tuo server!"
+  description: "Utilizza questo comando per visualizzare l'ip del server"
   usage: "/serverip"
   aliases: ["sip"]
   
