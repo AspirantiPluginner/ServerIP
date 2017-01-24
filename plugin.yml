@@ -7,7 +7,7 @@ commands:
  teleport:
   description: "Teleport to any point of the wolrd or to any player"
   usage: "/tp (x) (y) (z) / (player), /tp (x) (y) (z) / (player)"
- teleport all:
+ teleportall:
   description: "Teleport all players to you"
   usage: "/tpall"
 permissions:
