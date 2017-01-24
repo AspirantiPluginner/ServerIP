@@ -1,12 +1,12 @@
-name: "WhatMyIp"
+name: "WhatServerIp"
 author: "Qualcuno"
 api: "3.0.0alpha3"
-version: 1.0.0
+version: "1.0.0"
 main: Qualche cartella
 commands:
  myip:
   description: "quando usi questo comando ti appare scritto l ip del tuo server!"
-  usage: "/myip"
+  usage: "/sip"
 permissions:
  myip:
   children:
