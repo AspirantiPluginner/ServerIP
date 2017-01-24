@@ -3,11 +3,18 @@ author: "Qualcuno"
 api: nn so api
 version: 1.0.0
 main: Qualche cartella
-permissions:
+commands:
  teleport:
- default: op
- teleport.all:
- default: op
+  description: "Teleport to any point of the wolrd or to any player"
+  usage: "/tp (x) (y) (z) / (player), /tp (x) (y) (z) / (player)"
+ teleport all:
+  description: "Teleport all players to you"
+  usage: "/tpall"
+permissions:
+  teleport:
+   default: op
+  teleport.all:
+   default: op
  
  
  
