@@ -1,16 +1,19 @@
-name: "WhatServerIp"
-author: "Qualcuno"
-api: "3.0.0alpha3"
-version: "1.0.0"
-main: Qualche cartella
+name: "ServerIP"
+author: "AspirantiPluginner"
+api: ["3.0.0-ALPHA3", "3.0.0-ALPHA2"]
+version: 1.0.0
+main: AspirantiPluginner\ServerIP\Main
+
 commands:
- myip:
+ serverip:
   description: "quando usi questo comando ti appare scritto l ip del tuo server!"
-  usage: "/sip"
-permissions:
- myip:
-  children:
-  default: true
+  usage: "/serverip"
+  aliases: ["sip"]
   
- 
- 
+permissions:
+ serverip:
+  children:
+   serverip.command:
+    children:
+     serverip.command.serverip:
+      default: true
