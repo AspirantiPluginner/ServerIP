@@ -22,7 +22,7 @@ class Main extends PluginBase {
     public $ip;
 
     public function onEnable() {
-        //posso contemporaneamente salavre l'ip nella property e scriverlo sulla console
+        //posso contemporaneamente salvare l'ip nella property e scriverlo sulla console
         $this->getServer()->getLogger()->info("L'IP del server è " . TextFormat::AQUA . $this->ip = trim(file_get_contents("http://ip-api.com/line/?fields=query")));
     }
 }
