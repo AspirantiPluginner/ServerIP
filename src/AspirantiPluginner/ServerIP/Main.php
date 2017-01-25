@@ -16,6 +16,8 @@ namespace AspirantiPluginner\ServerIP;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
-    //test
-    //test teo
+
+    public function onEnable() {
+        // :D
+ }
 }
