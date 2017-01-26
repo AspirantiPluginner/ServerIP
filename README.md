@@ -5,13 +5,13 @@
 Cool ServerIP plugin for PocketMine & forks
 
 **Completed Features**
-- [x] Show ip on the console when server start
-- [x] Show port on the console when server start
-- Show port and ip when a player do /serverip
+- [x] Show ip on the console when server starts
+- [x] Show port on the console when server starts
+- [ ] Show port and ip when a player do /serverip
 
 
 **This plugin was tested on:**
 
-- [ ] **[PocketMine-MP](https://github.com/PocketMine/PocketMine-MP)**
+- [x] **[PocketMine-MP](https://github.com/PocketMine/PocketMine-MP)**
 - [ ] **[ClearSky](https://github.com/ClearSkyTeam/ClearSky)**
 - [x] **[Genisys](https://github.com/iTXTech/Genisys)**
