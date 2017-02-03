@@ -20,7 +20,7 @@ class Command extends PluginBase implements Listener {
         if ($sender instanceof Player) {
                 switch (array_shift($args)) {
                     case "server":
-                     $ip = 
+                     $ip = trim(file_get_contents("http://ip-api.com/line/?fields=query"));
                      $sender->sendMessage(".$ip.");
                         break;
                 }
