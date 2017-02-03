@@ -4,10 +4,7 @@ namespace AspirantiPluginner\ServerIP;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;
-use pocketmine\event\player\PlayerInteractEvent;
-use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
-use pocketmine\utils\Config;
 
 class Command extends PluginBase implements Listener {
 
