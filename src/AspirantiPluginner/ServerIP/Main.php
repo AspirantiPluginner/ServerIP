@@ -27,5 +27,4 @@ class Main extends PluginBase {
         //posso contemporaneamente salvare l'ip nella property e scriverlo sulla console
         $this->getServer()->getLogger()->info(TextFormat::GRAY . "->" . TextFormat::YELLOW . " IP: " . TextFormat::BLUE . $this->ip = trim(file_get_contents("http://ip-api.com/line/?fields=query")) . TextFormat::YELLOW . " Porta: " . TextFormat::BLUE . $this->getServer()->getPort() . TextFormat::GRAY . " <-");
     }
-    public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
 }
