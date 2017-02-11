@@ -31,12 +31,8 @@ class Main extends PluginBase {
     public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) {
     
     		if($cmd->getName() == "serverip" && $sender->hasPermission("serverip.serverip")) {
-			if(!empty($args[0])) {
-			if($args[0] == "server") {
                      $ip = trim(file_get_contents("http://ip-api.com/line/?fields=query"));
                      $sender->sendMessage(TextFormat::GRAY . "->" . TextFormat::YELLOW . " IP: " . TextFormat::BLUE . $ip . TextFormat::YELLOW . " Porta: " . TextFormat::BLUE . $this->getServer()->getPort() . TextFormat::GRAY . " <-");
                         }
                       }
                     }
-                  }
-                }
