@@ -1,5 +1,5 @@
 # ServerIP
-![serverip](https://www.tempicolabs.com/img/ip-info.png)
+![serverip](http://enkiera.co.uk/wp-content/uploads/2015/09/ip_icon.png)
 
 
 Cool ServerIP plugin for PocketMine & forks
